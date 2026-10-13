@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Café de Brouwer, Moergestel</title>
+  <meta name="description" content="Café de Brouwer in Moergestel: het café voor gezelligheid. Bier van de tap, live muziek, voetbal, feesten en carnaval aan de Rootven 11.">
+  <meta name="theme-color" content="#1E140D">
+  <link rel="preload" href="assets/fonts/big-shoulders-display-latin-800-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/newsreader-latin-opsz-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/style.css?v=20261013">
+</head>
+<body>
+  <a class="skip" href="#inhoud">Direct naar de inhoud</a>
+
+  <!-- Eén definitie van het logo, overal hergebruikt -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <defs>
+      <path id="logo-path" fill-rule="evenodd" d="{{LOGO_D}}"/>
+      <clipPath id="clip-mark"><rect x="0" y="0" width="323" height="118"/></clipPath>
+      <clipPath id="clip-word"><rect x="0" y="118" width="323" height="42"/></clipPath>
+    </defs>
+  </svg>
+
+  <header class="topbar" data-topbar>
+    <a class="topbar__logo" href="#top" aria-label="Café de Brouwer, naar boven">
+      <svg viewBox="0 0 323 160" aria-hidden="true"><use href="#logo-path"/></svg>
+    </a>
+    <nav class="topbar__nav" id="hoofdmenu" aria-label="Hoofdmenu" data-menu>
+      <a href="#op-de-tap">Op de tap</a>
+      <a href="#agenda">Agenda</a>
+      <a href="#cafetocht">Cafétocht</a>
+      <a href="#carnaval">Carnaval</a>
+      <a href="#feesten">Feesten</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="topbar__bel" href="tel:+31135131360"><span class="bel-lang">Bel 013 513 13 60</span><span class="bel-kort">Bellen</span></a>
+    <button class="topbar__menuknop" type="button" aria-expanded="false" aria-controls="hoofdmenu" data-menuknop>Menu</button>
+  </header>
+
+  <main id="inhoud">
+
+    <!-- HOOFDSTUK 1: BINNENKOMST -->
+    <section class="intro" id="top" aria-labelledby="intro-titel">
+      <div class="intro__foto" data-intro-foto>
+        <!-- TIJDELIJK: foto van de huidige site. Vervangen door eigen avondfoto (assets/img/bar.jpg). -->
+        <img src="assets/img/bar.jpg" alt="" width="2000" height="1500" decoding="async"
+             onerror="this.onerror=null;this.src='http://www.cafedebrouwer.nl/wp-content/uploads/bg.jpg'">
+      </div>
+      <div class="intro__vignet" aria-hidden="true"></div>
+
+      <div class="lampen" aria-hidden="true">
+        <div class="lamp" style="--x:15%;--drop:15vh" data-lamp>
+          <span class="lamp__snoer"></span><span class="lamp__kap"></span><span class="lamp__gloed"></span><span class="lamp__bundel"></span>
+        </div>
+        <div class="lamp" style="--x:37%;--drop:9vh" data-lamp>
+          <span class="lamp__snoer"></span><span class="lamp__kap"></span><span class="lamp__gloed"></span><span class="lamp__bundel"></span>
+        </div>
+        <div class="lamp" style="--x:63%;--drop:9vh" data-lamp>
+          <span class="lamp__snoer"></span><span class="lamp__kap"></span><span class="lamp__gloed"></span><span class="lamp__bundel"></span>
+        </div>
+        <div class="lamp" style="--x:85%;--drop:15vh" data-lamp>
+          <span class="lamp__snoer"></span><span class="lamp__kap"></span><span class="lamp__gloed"></span><span class="lamp__bundel"></span>
+        </div>
+      </div>
+
+      <div class="intro__inhoud">
+        <h1 id="intro-titel" class="intro__logo">
+          <span class="sr-only">Café de Brouwer</span>
+          <svg viewBox="0 0 323 160" aria-hidden="true" focusable="false">
+            <g class="logo-mark" clip-path="url(#clip-mark)" data-logo-mark><use href="#logo-path"/></g>
+            <g class="logo-woord" clip-path="url(#clip-word)" data-logo-woord><use href="#logo-path"/></g>
+          </svg>
+        </h1>
+        <p class="intro__slogan" data-intro-tekst>Het café voor gezelligheid, midden in Moergestel.</p>
+        <p class="intro__lede" data-intro-tekst>Een bruin café van de familie De Brouwer. Voor een pilsje aan de bar, voetbal op het scherm, live muziek en een volle zaal met carnaval.</p>
+        <div class="intro__acties" data-intro-tekst>
+          <a class="knop knop--vol" href="https://www.google.com/maps/dir/?api=1&amp;destination=Rootven+11,+5066+AT+Moergestel" target="_blank" rel="noopener">Plan je route</a>
+          <a class="knop" href="#op-de-tap">Bekijk wat er op de tap staat</a>
+        </div>
+        <p class="intro__adres" data-intro-tekst>Rootven 11, 5066 AT Moergestel</p>
+      </div>
+
+      <a class="intro__verder" href="#bier" data-intro-verder>
+        <span>Scroll voor je eerste bier</span>
+        <span class="intro__lijn" aria-hidden="true"></span>
+      </a>
+    </section>
+
+    <!-- HOOFDSTUK 2: HET EERSTE BIER -->
+    <section class="tappen" id="bier" aria-labelledby="tappen-titel" data-tappen>
+      <div class="tappen__podium" data-podium>
+        <div class="tappen__tekst" data-tappen-tekst>
+          <h2 id="tappen-titel" class="tappen__titel">Eerst een biertje.</h2>
+          <p class="tappen__lede">Wie bij De Brouwer binnenkomt, krijgt eerst iets te drinken. Vers van de tap, met twee vingers schuim. Daarna hoor je vanzelf wat er deze week speelt.</p>
+        </div>
+        <p class="tappen__proost" data-proost aria-hidden="true">Proost.</p>
+
+        <div class="tappen__bar" aria-hidden="true"></div>
+        <div class="tappen__glas" data-glas-wrap>
+          <canvas data-glas aria-hidden="true"></canvas>
+        </div>
+        <p class="sr-only">Illustratie: aan de bar wordt een glas pils getapt tot er een mooie schuimkraag op staat.</p>
+        <div class="tappen__duik" data-duik aria-hidden="true"></div>
+        <div class="tappen__duik tappen__duik--donker" data-duik-donker aria-hidden="true"></div>
+      </div>
+    </section>
+
+    <!-- HOOFDSTUK 3: NU OP DE TAP (eerste opzet) -->
+    <section class="taplijst" id="op-de-tap" aria-labelledby="taplijst-titel">
+      <div class="taplijst__kop">
+        <h2 id="taplijst-titel" class="taplijst__titel">Nu op de tap</h2>
+        <p class="taplijst__lede">Wat er deze weken getapt en geschonken wordt. Vraag aan de bar gerust om een slokje om te proeven.</p>
+      </div>
+      <div class="taplijst__grid">
+        <article class="seizoen" data-seizoen></article>
+        <ul class="bierlijst" data-bierlijst></ul>
+      </div>
+      <p class="taplijst__noot" data-bijgewerkt></p>
+    </section>
+
+    <!-- HOOFDSTUK 4: AGENDA -->
+    <section class="agenda" id="agenda" aria-labelledby="agenda-titel">
+      <div class="agenda__kop">
+        <h2 id="agenda-titel" class="sectietitel">Wat er speelt</h2>
+        <p class="agenda__lede">Live muziek, feestavonden en de vaste momenten van het jaar. Zet het in je agenda en neem je vrienden mee.</p>
+      </div>
+      <ol class="viltjes" data-viltjes></ol>
+      <p class="agenda__meer">Kortere aankondigingen, zoals voetbal op het scherm, staan op <a href="https://www.instagram.com/cafedebrouwer/" target="_blank" rel="noopener">Instagram</a> en <a href="https://www.facebook.com/cafedebrouwer/" target="_blank" rel="noopener">Facebook</a>.</p>
+    </section>
+
+    <!-- HOOFDSTUK 5: DE CAFÉTOCHT -->
+    <section class="tocht" id="cafetocht" aria-labelledby="tocht-titel">
+      <div class="tocht__tekst">
+        <h2 id="tocht-titel" class="sectietitel">De cafétocht</h2>
+        <p class="tocht__lede">Moergestel heeft acht cafés op loopafstand van elkaar. Een paar keer per jaar lopen we ze samen af, met in elk café een ander bier. De route eindigt natuurlijk bij ons.</p>
+        <ul class="tocht__tochten" data-tochten></ul>
+      </div>
+      <figure class="tocht__kaart">
+        <svg viewBox="270 175 640 240" role="img" aria-labelledby="kaart-titel" data-kaart preserveAspectRatio="xMidYMid meet">
+          <title id="kaart-titel">Kaart van het centrum van Moergestel met de route langs de cafés, van 't Draaiboompje aan de Hild tot Café de Brouwer aan de Rootven.</title>
+        </svg>
+        <figcaption>Kaartgegevens © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap-bijdragers</a></figcaption>
+      </figure>
+      <ol class="tocht__lijst" data-tocht-lijst></ol>
+    </section>
+
+    <!-- HOOFDSTUK 6: CARNAVAL -->
+    <section class="carnaval" id="carnaval" aria-labelledby="carnaval-titel" data-carnaval>
+      <div class="carnaval__sjerp" aria-hidden="true"><span></span><span></span><span></span></div>
+      <p class="carnaval__boven" data-carnaval-boven></p>
+      <h2 id="carnaval-titel" class="carnaval__motto" data-motto></h2>
+      <ol class="carnaval__dagen" data-dagen></ol>
+      <p class="carnaval__embleem" data-embleem></p>
+      <canvas class="carnaval__confetti" data-confetti aria-hidden="true"></canvas>
+    </section>
+
+    <!-- HOOFDSTUK 7: FEESTEN EN PARTIJEN -->
+    <section class="feesten" id="feesten" aria-labelledby="feesten-titel">
+      <div class="feesten__beeld" data-feestbeeld>
+        <!-- TIJDELIJK: vervangen door een foto van een volle zaal (assets/img/volle-zaal.jpg, bijvoorbeeld de omslagfoto van Facebook) -->
+        <img src="assets/img/volle-zaal.jpg" alt="" loading="lazy" decoding="async"
+             onerror="this.onerror=null;this.src='http://www.cafedebrouwer.nl/wp-content/uploads/bg.jpg';this.classList.add('is-tijdelijk')">
+        <div class="feesten__licht" aria-hidden="true" data-feestlicht></div>
+      </div>
+      <div class="feesten__inhoud">
+        <h2 id="feesten-titel" class="sectietitel">Jouw feest bij De Brouwer</h2>
+        <p class="feesten__lede">Een verjaardag, jubileum, personeelsfeest of reünie. Wij regelen de zaal, de tap en de hapjes. Jij hoeft alleen je gasten mee te nemen.</p>
+
+        <form class="formulier" data-feestformulier novalidate>
+          <div class="veld">
+            <label for="f-naam">Naam</label>
+            <input id="f-naam" name="naam" type="text" autocomplete="name" required>
+            <p class="veld__fout" id="f-naam-fout" hidden>Vul je naam in.</p>
+          </div>
+          <div class="veld veld--half">
+            <label for="f-mail">E-mailadres</label>
+            <input id="f-mail" name="email" type="email" autocomplete="email" required>
+            <p class="veld__fout" id="f-mail-fout" hidden>Vul een e-mailadres in, bijvoorbeeld naam@voorbeeld.nl.</p>
+          </div>
+          <div class="veld veld--half">
+            <label for="f-tel">Telefoonnummer <span class="veld__optie">(mag leeg)</span></label>
+            <input id="f-tel" name="telefoon" type="tel" autocomplete="tel">
+          </div>
+          <div class="veld veld--half">
+            <label for="f-soort">Wat vier je?</label>
+            <select id="f-soort" name="soort">
+              <option>Verjaardag</option>
+              <option>Jubileum</option>
+              <option>Personeelsfeest</option>
+              <option>Reünie</option>
+              <option>Iets anders</option>
+            </select>
+          </div>
+          <div class="veld veld--half">
+            <label for="f-datum">Gewenste datum</label>
+            <input id="f-datum" name="datum" type="date">
+          </div>
+          <div class="veld veld--half">
+            <label for="f-gasten">Aantal gasten, ongeveer</label>
+            <input id="f-gasten" name="gasten" type="number" min="10" max="400" step="5" inputmode="numeric" placeholder="bijvoorbeeld 60">
+          </div>
+          <fieldset class="veld veld--keuzes">
+            <legend>Wat wil je erbij?</legend>
+            <label><input type="checkbox" name="wensen" value="Borrelhapjes"> Borrelhapjes</label>
+            <label><input type="checkbox" name="wensen" value="Buffet"> Buffet</label>
+            <label><input type="checkbox" name="wensen" value="DJ of muziek"> DJ of muziek</label>
+          </fieldset>
+          <div class="veld">
+            <label for="f-bericht">Vertel er iets meer over <span class="veld__optie">(mag leeg)</span></label>
+            <textarea id="f-bericht" name="bericht" rows="4"></textarea>
+          </div>
+          <div class="formulier__actie">
+            <button class="knop knop--vol" type="submit">Vraag je feest aan</button>
+            <p class="formulier__noot">We nemen binnen een paar dagen contact met je op.</p>
+          </div>
+          <p class="formulier__klaar" data-klaar tabindex="-1" hidden></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- HOOFDSTUK 8: TOT ZIENS -->
+  <footer class="totziens" id="contact" aria-labelledby="totziens-titel" data-totziens>
+    <div class="lamp lamp--eind" style="--x:50%;--drop:0px" data-eindlamp aria-hidden="true">
+      <span class="lamp__kap"></span><span class="lamp__gloed"></span>
+    </div>
+    <h2 id="totziens-titel" class="totziens__titel">Tot ziens bij Café de Brouwer!</h2>
+    <div class="totziens__grid">
+      <div>
+        <h3>Adres</h3>
+        <p>Rootven 11<br>5066 AT Moergestel</p>
+        <a class="knop knop--vol" href="https://www.google.com/maps/dir/?api=1&amp;destination=Rootven+11,+5066+AT+Moergestel" target="_blank" rel="noopener">Plan je route</a>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <p><a href="tel:+31135131360">013 513 13 60</a><br><a href="mailto:info@cafedebrouwer.nl">info@cafedebrouwer.nl</a></p>
+      </div>
+      <div>
+        <h3>Openingstijden</h3>
+        <!-- NOG AANVULLEN: echte openingstijden van het café -->
+        <p class="totziens__let">Openingstijden volgen. Kijk tot die tijd op <a href="https://www.facebook.com/cafedebrouwer/" target="_blank" rel="noopener">Facebook</a> of bel even.</p>
+      </div>
+      <div>
+        <h3>Volg ons</h3>
+        <p><a href="https://www.instagram.com/cafedebrouwer/" target="_blank" rel="noopener">Instagram</a><br><a href="https://www.facebook.com/cafedebrouwer/" target="_blank" rel="noopener">Facebook</a></p>
+      </div>
+    </div>
+    <p class="totziens__voet">Familie De Brouwer, Moergestel. Website door <a href="https://maxxmarketing.eu" target="_blank" rel="noopener">MaxxMarketing</a>.</p>
+  </footer>
+
+  <script src="data/bieren.js?v=20261013"></script>
+  <script src="data/agenda.js?v=20261013"></script>
+  <script src="data/cafetocht.js?v=20261013"></script>
+  <script src="data/carnaval.js?v=20261013"></script>
+  <script src="assets/js/gsap.min.js"></script>
+  <script src="assets/js/ScrollTrigger.min.js"></script>
+  <script src="js/bierglas.js?v=20261013"></script>
+  <script src="js/main.js?v=20261013"></script>
+  <script src="js/hoofdstukken.js?v=20261013"></script>
+</body>
+</html>
